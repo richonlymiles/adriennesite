@@ -1,0 +1,106 @@
+head
+html  
+{  
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dedcd9', endColorstr='#f7f7f6');  
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dedcd9),      
+  color-stop(0.1, #f7f7f6), color-stop(1.0, #adad9f));  
+   background: -moz-linear-gradient(top, #dedcd9 0px, #f7f7f6 400px, #f7f7f6 100%);  
+}  
+
+body
+
+{  
+ background: url(https://d2vvqscadf4c1f.cloudfront.net/wofcBUjlRHugdXFWU7ox_piano.jpg)no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: fixed;
+ height: 100%;
+}  
+
+h1 {
+  font: 400 100px/1.3 'Arizonia',arial, helvetica;
+  color: firebrick;
+  text-shadow: 10px 10px 0px rgba(0,0,0,0.1); 
+}
+
+h2 {
+  font: 400 100px/1.3 'Arizonia' arial, helvetica;
+  color: firebrick;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+}
+
+body, html {
+  height: 100%;
+  width: 100%; 
+}
+
+ /* Dropdown Button */
+.dropbtn {
+  background-color: firebrick;
+ color: white;
+  padding: 16px;
+ font-size: 16px;
+ border: none;
+ cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+ background-color: black;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.More Info {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+ color: black;
+padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.center {
+text-align: center;
+border: 5px navy;
+} 
+/*make functional for multiple devices*/
+@media screen and (max-width: 320px) { 
+  body,html { 
+    height:70%;
+    width: 80%;
+  }
+  .dropbtn {
+    padding: 20px;
+ font-size: 20px;
+  }
+}
+@media screen and (max-width: 640px) { 
+  body,html { 
+    height:70%;
+    width: 70%;
+  }
+
+}
+
+
