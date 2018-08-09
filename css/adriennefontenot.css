@@ -8,14 +8,7 @@ html
 }  
 
 body
-{  
- background: url(https://d2vvqscadf4c1f.cloudfront.net/wofcBUjlRHugdXFWU7ox_piano.jpg)no-repeat center center fixed; 
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: fixed;
- height: 100%;
-}  
+{background-color: slategrey;}
 
 h1 {
   font: 400 100px/1.3 'Arizonia',arial, helvetica;
