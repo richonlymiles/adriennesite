@@ -75,7 +75,14 @@ padding: 12px 16px;
 
 /*make functional for multiple devices*/
 
+.wrapper {
 
+  margin: 0 auto;
+  width: 500px;
+}
+.img-adrienne {
+  width: 500px;
+}
 
 @media (max-width:500px) {
   html, body { 
