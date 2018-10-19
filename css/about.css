@@ -2,8 +2,10 @@ head
 
 html,
 body {  
- background-color: blanchedalmond;
+ background-color: black;
+
 }  
+
 img {
     float: left;
     width: 400px;
