@@ -1,6 +1,12 @@
 head
+html
+{  
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dedcd9', endColorstr='#f7f7f6');  
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dedcd9),      
+  color-stop(0.1, #f7f7f6), color-stop(1.0, #adad9f));  
+   background: -moz-linear-gradient(top, #dedcd9 0px, #f7f7f6 400px, #f7f7f6 100%);  
+}  
 
-html,
 body {  
  background-color: black;
 
@@ -9,7 +15,6 @@ body {
 img {
     float: left;
     width: 400px;
-      border: 5px solid rgb(76, 91, 175);
       padding: 10px;
       margin: 20px 20px 15px 20px;
   }
